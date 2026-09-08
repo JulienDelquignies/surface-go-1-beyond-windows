@@ -10,7 +10,7 @@ them has Surface-specific builds.
 
 | Project | State | Relevance here |
 |---|---|---|
-| **[BlissOS](https://blissos.org)** | Active. Android 11 / 12 / 13-era builds, plus **dedicated Surface builds** | The only realistic option |
+| **[BlissOS](https://blissos.org)** | Active. Android 11 / 12 / 13-era builds, plus **dedicated Surface builds** | The only *bare Android* option — but see [FydeOS](fydeos.md), which runs Android apps on a build made for this device |
 | **[Android-x86](https://www.android-x86.org)** | Effectively dormant; last stable releases are years old and Android 9-era | Historical interest only |
 | **[PrimeOS](https://primeos.in)** | Active but gaming-desktop focused, Android-x86 derived | No Surface touch support |
 | **Bare AOSP** | You would be porting it yourself | Not a weekend project |
@@ -79,12 +79,16 @@ predictable and you can decide it doesn't matter. Discovering three months later
 your bank's app, your work MFA app, or your streaming subscription won't work on an
 uncertified device is the failure mode that makes people reinstall Windows.
 
-**3. There is a strictly better way to get Android apps.** Install Linux — where the
-hardware is properly supported by an actively maintained project with hundreds of
-contributors — and run Android in a container with
-**[Waydroid](https://waydro.id)**. You get Android applications, working cameras'
-absence notwithstanding, a real update channel, and a machine you can still use as a
-laptop. See [the Linux page](linux.md).
+**3. There are two better ways to get Android apps.**
+
+- **[FydeOS](fydeos.md)** runs them natively, on a ChromeOS-based system with a build
+  named after this exact device and a company maintaining it. It costs £14.99 per
+  device after a 90-day trial — which is the only thing BlissOS still has over it.
+- **Linux + [Waydroid](https://waydro.id)** runs them in a container on a free,
+  community-maintained system where the hardware support is documented feature by
+  feature. See [the Linux page](linux.md).
+
+Both give you a real update channel, which BlissOS does not.
 
 ## If you're going to do it anyway
 

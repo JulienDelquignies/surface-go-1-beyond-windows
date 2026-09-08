@@ -1,8 +1,13 @@
 # Linux on the Surface Go 1 — the option that works
 
-This is the recommendation. Not because Linux is better in the abstract, but because
-the [`linux-surface`](https://github.com/linux-surface/linux-surface) project has done
-the specific work this specific device needs, and keeps doing it.
+One of the two recommendations — the one for people who *use* this machine rather
+than just hold it. Not because Linux is better in the abstract, but because the
+[`linux-surface`](https://github.com/linux-surface/linux-surface) project has done the
+specific work this specific device needs, keeps doing it, and publishes a per-feature
+support matrix that no other option here matches.
+
+If you want a tablet rather than a small computer, read [FydeOS](fydeos.md) first:
+it is touch-first and runs Android apps natively, at the cost of a per-device licence.
 
 ## What you get
 
